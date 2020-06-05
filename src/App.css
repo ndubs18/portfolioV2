@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -14,6 +15,16 @@
   display: flex;
   flex-direction: column;
   color: white;
+}
+
+h1 {
+  font-size:1.75rem
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem
 }
 
 .section_1 {
@@ -32,10 +43,12 @@
 
 }
 
-section_1 nav img {
-  width: 35%;
-  height: 100%;
+.section_1 nav img {
+  width: 5%;
+  height: auto;
   float: left;
+  margin: 0;
+  padding-left: 0rem;
 }
 
 .section_1 nav h1 {
@@ -44,6 +57,8 @@ section_1 nav img {
   text-align: center;
   margin: 0;
   
+  /* border-bottom: 2px solid black */
+  
 }
 .about_me {
   height: fit-content;
@@ -51,7 +66,9 @@ section_1 nav img {
   display: flex;
   flex-direction: row;
   padding: 1rem 1rem 3rem;
-  border-bottom: 2px solid black ;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+
 }
 
 .about_me .credentials {
@@ -62,13 +79,22 @@ section_1 nav img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-right: 3px solid black;
+  border-right: 2px solid black;
+}
+
+.credentials p {
+  margin: .8rem 0
+}
+
+.credentials p:nth-child(2) {
+  margin-top: .2rem
 }
 
 .about_me .credentials div {
-  margin: 0;
+  margin-bottom: 1rem;
   border-bottom: 2px solid black;
-  padding-bottom: 1rem;
+  padding-bottom: 1.6rem;
+  
 
 }
 .about_me .credentials div:nth-last-child(1) {
@@ -82,7 +108,7 @@ section_1 nav img {
   width: 100%;
   height: 100%;
   margin:0 auto;
-  padding: 1rem 2rem 1rem;
+  padding: 0rem 2rem 1rem;
 }
 
 .about_me .technical .summary {
@@ -92,16 +118,21 @@ section_1 nav img {
   padding-bottom: 1rem;
 }
 .about_me .technical .summary p {
-
+  font-size: 1.05rem;
+  line-height: 1.75rem;
 }
 
-.about_me .technical .summary img {
-  display: inline;
-  height: 17rem;
-  width: 17rem;
-  float: right;
+.about_me .technical .summary h2 {
+  margin: .5rem 0;
+}
 
-  
+
+.about_me .technical .summary img {
+  height: 18rem;
+  width: 20rem;
+  float: right;
+  margin-left: 4rem;
+
 }
 
 .about_me .technical .skills {
@@ -110,6 +141,10 @@ section_1 nav img {
   width: 100%;
   background-color: rgba(0,0,0,.1);
   padding: .25rem 1rem 1rem 1rem;
+}
+
+.about_me .technical .skills h2 {
+  margin: .75rem 0
 }
 
 .about_me .technical .skills .progress {

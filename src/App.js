@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <section className="section_1">
-          <nav><img src="" alt="Ndubscodes" ></img> <h1>Portfolio</h1>
+          <nav><img src={require('./images/Asset_1.svg')} alt="Ndubscodes" ></img> <h1>Portfolio</h1>
           </nav>
 
           <div className="about_me">
@@ -43,8 +43,9 @@ function App() {
             <div className="technical">
               <div className="summary">
                 <h2>About Me</h2>
-                <div>
-                  <p>Hi, my name is Nick and I love to tinker with things. It all started back
+                {/* WEBPACK MAKES US USE REQUIRE WHEN ADDING IMAGES */}
+                <img src={require('./images/firefighting.jpg')} alt="fire"/>
+                <p>Hi, my name is Nick and I love to tinker with things. It all started back
                   when I was 12 years old and I built my first computer; I saw the boot
                   screen appear and I was hooked. When it comes to code, I have 3
                   years of combined experience. Whether that would be at university or
@@ -54,8 +55,7 @@ function App() {
                   yourself: how many developers do you know that are also firefighters?
                   I'm someone that's consistently challenging social norms, especially
                   the idea of a single passion defining a person and how they're viewed in society today.</p>
-                  <img src={require('./images/firefighting.jpg')} alt="fire"/>
-                </div>
+                
               </div>
               <div className="skills">
                 <h2>Skills</h2>
