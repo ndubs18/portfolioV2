@@ -92,11 +92,63 @@ function App() {
         </section>
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
-          <div>Project</div>
-          <div>Project</div>
-          <div>Project</div>
-          <div>Project</div>
+          <div className="projBox">
+            <img src={require('./images/digital.png')} />
+            <div className="description">
+            <ul>
+              <h4>WebAgency</h4>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Node.js</li>
+              <li>Bootstrap - used on cards</li>
+            </ul>
+            </div>
+          </div>
+
+          <div className="projBox">
+            <img src={require('./images/food2fork.png')} />
+            <div className="description">
+            
+            <ul>
+              <h4>food2fork</h4>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Node.js</li>
+              <li>Webpack & Babel</li>
+            </ul>
+              
+            </div>
+          </div>
+
+          <div className="projBox">
+            <img src={require('./images/laptopStore.png')} />
+            <div className="description">
+            
+            <ul>
+              <h4>budgetApp</h4>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>ES5 module pattern</li>
+              <li><span style={{color:"transparent"}}>hello</span></li>
+            </ul>
+            </div>
+          </div>
+
+          <div className="projBox">
+            <img src={require('./images/sandovals.png')} />
+            <div className="description">
+
+            
+            <ul>
+            <h4>laptopStore</h4>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Node.js</li>
+              <li><span style={{color:"transparent"}}>hello</span></li>
+            </ul>
+            </div>
+          </div>
+          
+
+          
         </section>
+        <footer>&copy; Nick Winkler</footer>
       </header>
     </div>
   );
