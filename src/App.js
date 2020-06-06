@@ -22,9 +22,9 @@ function App() {
                 <p><b>Email:</b> nick.winkler1@gmail.com</p>
               </div>
               <div id="social">
-                <p><b>Links</b></p>
-                <div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')}/></div>
-                <div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')}/></div>
+                <p><b>Social Media</b></p>
+                <a href="http://www.github.com/ndubs18"><div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')}/></div></a>
+                <a href=""><div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')}/></div></a>
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
