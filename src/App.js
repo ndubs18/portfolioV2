@@ -21,10 +21,10 @@ function App() {
                 <p><b>Phone:</b> 503-816-8132</p>
                 <p><b>Email:</b> nick.winkler1@gmail.com</p>
               </div>
-              <div id="Social">
+              <div id="social">
                 <p><b>Links</b></p>
-                <p>Github</p>
-                <p>Linkedin</p>
+                <div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')}/></div>
+                <div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')}/></div>
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
@@ -59,7 +59,6 @@ function App() {
               </div>
               <div className="skills">
                 <h2>Skills</h2>
-                <div className="progress">PROGRESS</div>
                 <div className="tech">
                   <div><p><b>Languages</b></p>
                   <p>JavaScript, C++, Java, HTML, CSS</p>
@@ -91,7 +90,7 @@ function App() {
           </div>
 
         </section>
-
+        <h1 className="project_header">Projects</h1>
         <section className="section_2">
           <div>Project</div>
           <div>Project</div>
