@@ -251,7 +251,8 @@ width: 50%;
 }
 
 .project_header {
-  color: black
+  color: black;
+  margin-bottom: 1.5rem;
 }
 
 .section_2 {
