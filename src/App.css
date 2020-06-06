@@ -227,13 +227,13 @@ a {
   margin: .75rem 0
 }
 
-.about_me .technical .skills .progress {
+/* .about_me .technical .skills .progress {
   width: 75%;
   height: 4rem;
   margin: 0 auto;
   text-align: center;
 
-}
+} */
 
 .about_me .technical .skills .tech {
   width: 100%;
@@ -260,7 +260,8 @@ width: 50%;
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 3rem 1rem 3.5rem;
+  flex-wrap: wrap;
+  padding: 2rem 1rem 3.5rem;
   margin: 0 auto 1rem;
   border-top: 2px solid black
 
@@ -273,6 +274,7 @@ width: 50%;
   color: black;
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
 
 }
 
