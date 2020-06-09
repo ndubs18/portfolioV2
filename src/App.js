@@ -49,7 +49,7 @@ function App() {
                   when I was 12 years old and I built my first computer; I saw the boot
                   screen appear and I was hooked. When it comes to code, I have 3
                   years of combined experience. Whether that would be at university or
-                  on my own, it's played a primary role in feeding my sponge of a brain
+                5on my own, it's played a primary role in feeding my sponge of a brain
                   that loves to build and learn new things. Aside from tinkering, I'm also
                   known to be a leader, hard worker, and goal oriented. I mean ask
                   yourself: how many developers do you know that are also firefighters?
