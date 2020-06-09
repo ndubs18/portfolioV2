@@ -275,11 +275,12 @@ width: 50%;
  .section_2 .projBox {
   width: 18rem;
   height: 24rem;
-  box-shadow: .5px 1px 2px black;
   color: black;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
+  overflow: hidden;
+  border-radius: 5px;
 
 }
 
@@ -379,7 +380,7 @@ footer {
   .about_me .credentials #personal, #social, #experience, #education {
     width: 100%;
     margin-bottom: 0;
-    padding-bottom: .85rem;
+    padding-bottom: .25rem;
   }
   .about_me .technical {
     width: 100%;
@@ -416,7 +417,7 @@ footer {
   }
 
   .about_me .technical .summary {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
     text-align: left;
     padding: 0 1rem 1rem;
@@ -424,20 +425,21 @@ footer {
  
 
   .about_me .technical .summary img {
-    width: 100%;
+    width: 60%;
     height: 20rem;
     float: none;
     display: block;
-    margin: 1.2rem 0
+    margin: 1.2rem auto;
+    border-radius: 50%;
 
   }
   
 
   .about_me .technical .summary p {
-    width: 100%;
+    width: 85%;
     margin: 0;
     display: block;
-    margin: 1rem 0;
+    margin: 1rem auto;
   }
 
   .skills div p {
@@ -460,5 +462,17 @@ footer {
   }
 }
 
+@media only screen and (max-width: 585px) {
+  .about_me .technical .summary p {
+    width: 100%;
+    padding: 0 1rem;
+  
+  }
+
+  .about_me .technical .summary img {
+    width: 90%;
+
+  }
+}
 
 

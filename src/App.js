@@ -23,8 +23,8 @@ function App() {
               </div>
               <div id="social">
                 <p><b>Social Media</b></p>
-                <a href="http://www.github.com/ndubs18"><div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')}/></div></a>
-                <a href=""><div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')}/></div></a>
+                <a href="http://www.github.com/ndubs18"><div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')} alt="github"/></div></a>
+                <a href="https://www.linkedin.com/in/nick-winkler-34580872/"><div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')} alt="linkedin"/></div></a>
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
@@ -93,7 +93,7 @@ function App() {
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
           <div className="projBox">
-            <img src={require('./images/digital.png')} />
+            <img src={require('./images/digital.png')} alt="digital" />
             <div className="description">
             <ul>
               <h4>WebAgency</h4>
@@ -105,7 +105,7 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/food2fork.png')} />
+            <img src={require('./images/food2fork.png')}alt="foodtoFork" />
             <div className="description">
             
             <ul>
@@ -119,7 +119,7 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/laptopStore.png')} />
+            <img src={require('./images/laptopStore.png')}alt="laptopstore" />
             <div className="description">
             
             <ul>
@@ -132,7 +132,7 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/sandovals.png')} />
+            <img src={require('./images/sandovals.png')} alt="sandovals"/>
             <div className="description">
 
             
