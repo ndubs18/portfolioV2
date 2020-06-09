@@ -15,7 +15,7 @@ function App() {
 
             <div className="credentials">
               <div id="personal">
-                <h3 style={{margin: 0}}>Nick Winkler</h3>
+                <h3>Nick Winkler</h3>
                 <p><b>Software Developer</b></p>
                 <p>Portland, Oregon</p>
                 <p><b>Phone:</b> 503-816-8132</p>

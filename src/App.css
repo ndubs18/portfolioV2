@@ -89,6 +89,10 @@ a {
   border-right: 2px solid rgba(108, 122, 137, 1);
 }
 
+.about_me .credentials h3 {
+  margin: 0;
+}
+
 .credentials p {
   margin: .8rem 0;
   font-size: 1.05rem;
@@ -345,6 +349,7 @@ footer {
     flex-direction: row;
     width: 100%;
     border-right: none;
+    padding:0;
   }
 
   .about_me .credentials #personal, #social, #experience, #education {
@@ -364,8 +369,13 @@ footer {
   .about_me .credentials {
     flex-direction: column;
     padding: 0;
-    padding: 1rem;
+    padding: .6rem 1rem 2.65rem;
   } 
+
+  .about_me .credentials h3 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
   .about_me .credentials #personal, #social, #experience, #education {
     width: 100%;
     margin-bottom: 0;
@@ -446,7 +456,7 @@ footer {
   }
 
   .about_me .technical .skills .tech div {
-    padding: 0 1rem;
+    padding: 0 .5rem;
   }
 }
 
