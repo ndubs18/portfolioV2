@@ -94,7 +94,7 @@ function App() {
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
           <div className="projBox">
-            <img src={require('./images/digital.png')} alt="digital" />
+            <img src={require('./images/digital.jpg')} alt="digital" />
             <div className="description">
             <ul>
               <h4>WebAgency</h4>
@@ -106,7 +106,7 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/food2fork.png')}alt="foodtoFork" />
+            <img src={require('./images/food2fork.jpg')}alt="foodtoFork" />
             <div className="description">
             
             <ul>
@@ -120,7 +120,7 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/laptopStore.png')}alt="laptopstore" />
+            <img src={require('./images/laptopStore.jpg')}alt="laptopstore" />
             <div className="description">
             
             <ul>
@@ -133,7 +133,7 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/sandovals.png')} alt="sandovals"/>
+            <img src={require('./images/sandovals.jpg')} alt="sandovals"/>
             <div className="description">
 
             
