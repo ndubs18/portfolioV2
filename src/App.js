@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './images/Asset_1.svg'
 
 
 import './App.css';
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <section className="section_1">
-          <nav><img src={require('./images/Asset_1.svg')} alt="Ndubscodes" ></img> <h1>Portfolio</h1>
+          <nav><img src={logo} /><h1>Portfolio</h1>
           </nav>
 
           <div className="about_me">
@@ -28,9 +29,9 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
-                <p>Work1</p>
-                <p>Work2</p>
-                <p>Work3</p>
+                <p>Dust Busters - Wildland Firefighter</p>
+                <p>Open Source - Blue Ribbons Review</p>
+                <p></p>
               </div>
               <div id="education">
                 <p><b>Education</b></p>

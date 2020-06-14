@@ -24,7 +24,7 @@ h2 {
   font-size: 1.75rem;
 }
 h3 {
-  font-size: 1.5rem
+  font-size: 2rem
 }
 
 a {
@@ -51,7 +51,7 @@ a {
 
 .section_1 nav img {
   position: absolute;
-  width: 5%;
+  width: 6%;
   height: auto;
   float: left;
   margin: 0;
@@ -80,7 +80,7 @@ a {
 
 .about_me .credentials {
   text-align: start;
-  padding: 1rem 2rem 1rem .5rem;
+  padding: .5rem 2rem 1rem .5rem;
   width: 30%;
   height: 100%;
   display: flex;
@@ -90,7 +90,7 @@ a {
 }
 
 .about_me .credentials h3 {
-  margin: 0;
+  margin: 0 0 .5rem;
 }
 
 .credentials p {
@@ -356,14 +356,27 @@ footer {
   .about_me .credentials #personal, #social, #experience, #education {
     border-bottom: none;
   }
+
+  .section_1 nav img {
+    width: 100px;
+  
+  }
 }
 
 @media only screen and (max-width: 1115px)
 {
   .section_1 {
     width: 100%;
-
   }
+
+  .section_1 h1 {
+    display: none;
+  }
+
+  .section_1 nav img {
+    margin-left: 1.3rem;
+  }
+
   .about_me {
     padding-bottom: 0rem;
   }
@@ -463,6 +476,15 @@ footer {
 }
 
 @media only screen and (max-width: 585px) {
+
+  * {
+    font-size: 14px;
+  }
+  .about_me {
+    padding-top: .5rem;
+  }
+
+  
   .about_me .technical .summary p {
     width: 100%;
     padding: 0 1rem;
@@ -472,6 +494,17 @@ footer {
   .about_me .technical .summary img {
     width: 90%;
 
+  }
+
+  .section_1 nav img {
+    margin-left: 0;
+   
+  }
+  .section_1 nav {
+    justify-content: center;
+    padding-right: 10px;
+    height: 4.5rem;
+    
   }
 }
 
