@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <section className="section_1">
-          <nav><img src={logo} /><h1>Portfolio</h1>
+          <nav><img src={logo} alt="ndubscodes.com" /><h1>Portfolio</h1>
           </nav>
 
           <div className="about_me">
