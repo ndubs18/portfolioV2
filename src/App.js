@@ -94,7 +94,10 @@ function App() {
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
           <div className="projBox">
-            <img src={require('./images/digital.jpg')} alt="digital" />
+            <div>
+            <img src={require('./images/digital.jpg')} alt="digital"/>
+            </div>
+
             <div className="description">
             <ul>
               <h4>WebAgency</h4>
@@ -106,7 +109,9 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/food2fork.jpg')}alt="foodtoFork" />
+            <div>
+            <img src={require('./images/food2fork.jpg')}alt="foodtoFork"/>
+            </div>
             <div className="description">
             
             <ul>
@@ -120,7 +125,10 @@ function App() {
           </div>
 
           <div className="projBox">
-            <img src={require('./images/laptopStore.jpg')}alt="laptopstore" />
+            <div>
+            <img src={require('./images/laptopStore.jpg')}alt="laptopstore"/>
+            </div>
+
             <div className="description">
             
             <ul>
@@ -133,7 +141,9 @@ function App() {
           </div>
 
           <div className="projBox">
+            <div>
             <img src={require('./images/sandovals.jpg')} alt="sandovals"/>
+            </div>
             <div className="description">
 
             
@@ -145,8 +155,6 @@ function App() {
             </ul>
             </div>
           </div>
-          
-
           
         </section>
         <footer>&copy; Nick Winkler</footer>

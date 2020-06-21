@@ -284,10 +284,14 @@ width: 50%;
 
 }
 
+.projBox div:nth-child(1) {
+  height: 12rem;
+}
+
 .projBox img {
   overflow: hidden;
   object-fit: cover;
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 
@@ -473,6 +477,24 @@ footer {
   .about_me .technical .skills .tech div {
     padding: 0 .5rem;
   }
+
+  .projBox div:nth-child(1) {
+    height: 10rem;
+  }
+
+  .projBox .description ul  {
+
+    justify-content: space-evenly;
+    padding-top: 0rem;
+  }
+
+  .projBox .description ul li {
+     margin-top: 1rem;
+  }
+  
+  .section_2 .projBox {
+    height: fit-content;
+  }
 }
 
 @media only screen and (max-width: 585px) {
@@ -506,6 +528,14 @@ footer {
     height: 4.5rem;
     
   }
-}
 
+  .section_2 {
+    width: 100%
+  }
+
+  .section_2 .projBox {
+    width: 90%;
+  }
+
+}
 
