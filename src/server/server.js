@@ -2,7 +2,7 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 
 const saltRounds = 10;
-const myPlaintextPassword = 'Rhinolax18!';
+
 
 const genSalt = bcrypt.genSalt(saltRounds, (error, salt)=> {
 
