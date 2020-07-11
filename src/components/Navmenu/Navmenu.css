@@ -1,0 +1,29 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.Navmenu {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.Navmenu ul li {
+    width: 8rem;
+    margin: 0;
+    padding-right: 1.8rem;
+    text-align: right;
+}
+
+@media only screen and (max-width: 1115px) {
+
+    .Navmenu {
+        display: none;
+    }
+}

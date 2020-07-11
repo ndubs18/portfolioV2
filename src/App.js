@@ -1,6 +1,10 @@
 import React from 'react';
-import logo from './images/Asset_1.svg'
 
+import logo from './images/Asset_1.svg';
+import Navmenu from './components/Navmenu/Navmenu';
+import Techimages from './components/Techimages/Techimages';
+//material-ui icons
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import './App.css';
 
@@ -10,6 +14,7 @@ function App() {
       <header className="App-header">
         <section className="section_1">
           <nav><img src={logo} alt="ndubscodes.com" /><h1>Portfolio</h1>
+          <Navmenu />
           </nav>
 
           <div className="about_me">
@@ -29,6 +34,7 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
+                <p>Providence Health and Services - IS Support Technician</p>
                 <p>Dust Busters - Wildland Firefighter</p>
                 <p>Open Source - Blue Ribbons Review</p>
                 <p></p>
@@ -86,10 +92,10 @@ function App() {
                   </div>
                 </div>
               </div>
+              <Techimages/>
             </div>
-
           </div>
-
+          <ExpandMoreIcon/>
         </section>
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
