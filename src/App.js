@@ -91,8 +91,9 @@ function App() {
                     <p>Visual Studio, Visual Studio Code, IntelliJ</p>
                   </div>
                 </div>
-              </div>
-              <Techimages/>
+                <Techimages/>
+                </div>
+              {/* <Techimages/> */}
             </div>
           </div>
           <ExpandMoreIcon/>
