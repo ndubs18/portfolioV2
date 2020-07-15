@@ -3,6 +3,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/* .projBox_hover{
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+} */
+
 
 .App {
   height: fit-content;
@@ -549,6 +555,7 @@ footer {
 
   .section_2 .projBox {
     width: 90%;
+    margin: .7rem auto;
   }
 
 }
