@@ -346,7 +346,7 @@ footer {
   height: auto;
   width: 100%;
   margin: 0;
-  padding: 0 0 0 .5rem;
+  padding: 0 0 .5rem .9rem;
   color:black;
   z-index: 100;
   text-align: start;

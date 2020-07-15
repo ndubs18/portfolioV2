@@ -52,16 +52,15 @@ function App() {
                 <h2>About Me</h2>
                 {/* WEBPACK MAKES US USE REQUIRE WHEN ADDING IMAGES */}
                 <img src={require('./images/firefighting.jpg')} alt="fire"/>
-                <p>Hi, my name is Nick and I love to tinker with things. It all started back
+                <p className="summaryTxt" style={{fontSize: "1.22rem", lineHeight: "1.75"}}>Hi, my name is Nick and I love to tinker with things. It all started back
                   when I was 12 years old and I built my first computer; I saw the boot
-                  screen appear and I was hooked. When it comes to code, I have 3
+                  screen appear and I was hooked. When it comes to code I have 3
                   years of combined experience. Whether that would be at university or
-                5on my own, it's played a primary role in feeding my sponge of a brain
-                  that loves to build and learn new things. Aside from tinkering, I'm also
-                  known to be a leader, hard worker, and goal oriented. I mean ask
-                  yourself: how many developers do you know that are also firefighters?
-                  I'm someone that's consistently challenging social norms, especially
-                  the idea of a single passion defining a person and how they're viewed in society today.</p>
+                  self taught, it's played a primary role in feeding my sponge of a brain. Aside from
+                  code I consider myself to be a leader, critical thinker, and team player. With those traits, I continue
+                  my journey of becoming the best developer I can be.
+                  
+                  </p>
                 
               </div>
               <div className="skills">
