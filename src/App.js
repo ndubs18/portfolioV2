@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <section className="section_1">
           <nav><img src={logo} alt="ndubscodes.com" /><h1>Portfolio</h1>
-          <Navmenu />
+          {/* <Navmenu /> */}
           </nav>
 
           <div className="about_me">
@@ -34,9 +34,9 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
-                <p>Providence Health and Services - IS Support Technician</p>
-                <p>Dust Busters - Wildland Firefighter</p>
-                <p>Open Source - Blue Ribbons Review</p>
+                <p>Providence Health and Services <br/><b>IS Support Technician</b></p>
+                <p>Dust Busters <br/><b>Wildland Firefighter</b></p>
+                <p>Open Source <br/> <b>Blue Ribbons Review</b></p>
                 <p></p>
               </div>
               <div id="education">
@@ -100,6 +100,7 @@ function App() {
         </section>
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
+        <a className="projBox_hover" href="http://ndubscodes.com/digitalMarketing" target="_blank">
           <div className="projBox">
             <div>
             <img src={require('./images/digital.jpg')} alt="digital"/>
@@ -114,7 +115,9 @@ function App() {
             </ul>
             </div>
           </div>
-
+          </a>
+        
+        < a href="https://github.com/ndubs18/food2fork" target="_blank">
           <div className="projBox">
             <div>
             <img src={require('./images/food2fork.jpg')}alt="foodtoFork"/>
@@ -130,7 +133,9 @@ function App() {
               
             </div>
           </div>
+          </ a>
 
+          <a href="https://afternoon-oasis-85715.herokuapp.com/" target="_blank">
           <div className="projBox">
             <div>
             <img src={require('./images/laptopStore.jpg')}alt="laptopstore"/>
@@ -146,7 +151,8 @@ function App() {
             </ul>
             </div>
           </div>
-
+          </a>
+          <a href="http://ndubscodes.com/sandovals_new" target="_blank">
           <div className="projBox">
             <div>
             <img src={require('./images/sandovals.jpg')} alt="sandovals"/>
@@ -162,6 +168,7 @@ function App() {
             </ul>
             </div>
           </div>
+          </a>
           
         </section>
         <footer>&copy; Nick Winkler</footer>

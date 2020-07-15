@@ -59,11 +59,11 @@ a {
 }
 
 .section_1 nav h1 {
-  width: 100%;
+  width: auto;
   height: 100%;
   text-align: right;
-  margin: 0;
-  padding-right: 17rem;
+  margin: 0 auto;
+  
   /* border-bottom: 2px solid black */
   
 }
@@ -93,7 +93,7 @@ a {
 }
 
 .credentials p {
-  margin: .8rem 0;
+  margin: .65rem 0;
   font-size: 1.05rem;
   line-height: 25px;
   
@@ -156,7 +156,7 @@ a {
 }
 
 .linkedinHover p {
-  margin: 0;
+  margin: 0rem;
   font-size:1.15rem;
   position: relative;
   top:1.5px
@@ -167,17 +167,16 @@ a {
   width: 1.9rem;
   position: relative;
   left: 4px;
-  
 }
 
-.credentials p:nth-child(3) {
-  margin-top: .2rem
+.credentials #social {
+  padding-bottom: 1.5rem;
 }
 
 .about_me .credentials #personal, #social, #experience, #education {
   margin-bottom: .5rem;
   border-bottom: 2px solid rgba(108, 122, 137, 1);
-  padding-bottom: 1.25rem;
+  padding-bottom: .75rem;
   
 
 }
@@ -285,6 +284,12 @@ width: 50%;
 
 }
 
+.section_2 .projBox:hover {
+  transform: scale(1.05);
+
+}
+
+
 .projBox div:nth-child(1) {
   height: 12rem;
 }
@@ -348,9 +353,6 @@ footer {
     flex-direction: column;
   }
 
-  .section_1 nav h1 {
-    padding-right: 12rem
-  }
   .about_me {
     flex-direction: column;
   }
