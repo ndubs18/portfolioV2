@@ -34,9 +34,9 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
-                <p>Providence Health and Services <br/><b>IS Support Technician</b></p>
-                <p>Dust Busters <br/><b>Wildland Firefighter</b></p>
-                <p>Open Source <br/> <b>Blue Ribbons Review</b></p>
+                <p>Providence Health and Services <br/><b style={{fontSize: ".9rem"}}>IS Support Technician</b></p>
+                <p>Dust Busters <br/><b style={{fontSize: ".9rem", fontWeight: "900"}}>Wildland Firefighter</b></p>
+                <p>Open Source <br/> <b style={{fontSize: ".9rem"}}>Blue Ribbons Review</b></p>
                 <p></p>
               </div>
               <div id="education">
