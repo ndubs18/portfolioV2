@@ -28,7 +28,7 @@ function App() {
                 <p><b>Email:</b> nick.winkler1@gmail.com</p>
               </div>
               <div id="social">
-                <p><b>Social Media</b></p>
+                <p><b>Media</b></p>
                 <a href="http://www.github.com/ndubs18"><div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')} alt="github"/></div></a>
                 <a href="https://www.linkedin.com/in/nick-winkler-34580872/"><div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')} alt="linkedin"/></div></a>
               </div>
@@ -42,7 +42,6 @@ function App() {
               <div id="education">
                 <p><b>Education</b></p>
                 <p>Portland State University</p>
-                <p>University of Oregon</p>
                 <p>The Tech Academy</p>
               </div>
             </div>
@@ -53,7 +52,7 @@ function App() {
                 {/* WEBPACK MAKES US USE REQUIRE WHEN ADDING IMAGES */}
                 <img src={require('./images/firefighting.jpg')} alt="fire"/>
                 <p className="summaryTxt" style={{fontSize: "1.22rem", lineHeight: "1.75"}}>Hi, my name is Nick and I love to tinker with things. It all started back
-                  when I was 12 years old and I built my first computer; I saw the boot
+                  when I was 14 years old and I built my first computer; I saw the boot
                   screen appear and I was hooked. When it comes to code I have 3
                   years of combined experience. Whether that would be at university or
                   self taught, it's played a primary role in feeding my sponge of a brain. Aside from
@@ -67,15 +66,15 @@ function App() {
                 <h2>Skills</h2>
                 <div className="tech">
                   <div><p><b>Languages</b></p>
-                  <p>JavaScript, C++, Java, HTML, CSS</p>
+                  <p>JavaScript, C++, Java, HTML, CSS, Node.js (runtime)</p>
                   </div>
                   <div>
                     <p><b>Dev tools</b></p>
-                    <p>Node.js, Webpack, Babel, SASS, Rest APIs</p>
+                    <p>Webpack, Babel, SASS, Rest APIs</p>
                     </div>
                   <div>
                     <p><b>Frameworks and Libraries</b></p>
-                    <p>React.js, Express.js Handlebars, Mongoose, Bootstrap</p>
+                    <p>React.js, Express.js, Handlebars, Mongoose, Bootstrap</p>
                     </div>
                   <div>
                     <p><b>RDBMS/non-RDBMS</b></p>
@@ -83,11 +82,11 @@ function App() {
                     </div>
                   <div>
                     <p><b>Version Control</b></p>
-                    <p>git, Microsoft TFS</p>
+                    <p>git</p>
                   </div>
                   <div>
                     <p><b>IDE/Text Editors</b></p>
-                    <p>Visual Studio, Visual Studio Code, IntelliJ</p>
+                    <p>Visual Studio, Visual Studio Code, Vim, IntelliJ</p>
                   </div>
                 </div>
                 <Techimages/>
@@ -151,10 +150,10 @@ function App() {
             </div>
           </div>
           </a>
-          <a href="http://ndubscodes.com/sandovals_new" target="_blank">
+          {/* <a href="http://ndubscodes.com/sandovals_new" target="_blank">
           <div className="projBox">
             <div>
-            <img src={require('./images/sandovals.jpg')} alt="sandovals"/>
+            <img src={require('')} alt="sandovals"/>
             </div>
             <div className="description">
 
@@ -167,7 +166,7 @@ function App() {
             </ul>
             </div>
           </div>
-          </a>
+          </a> */}
           
         </section>
         <footer>&copy; Nick Winkler</footer>
