@@ -52,15 +52,13 @@ function App() {
                 <h2>About Me</h2>
                 {/* WEBPACK MAKES US USE REQUIRE WHEN ADDING IMAGES */}
                 <img src={require('./images/firefighting.jpg')} alt="fire"/>
-                <p className="summaryTxt" style={{fontSize: "1.22rem", lineHeight: "1.75"}}>Hi, my name is Nick and I love to tinker with things. It all started back
-                  when I was 14 years old and I built my first computer; I saw the boot
-                  screen appear and I was hooked. When it comes to code I have 3
-                  years of combined experience. Whether that would be at university or
-                  self taught, it's played a primary role in feeding my sponge of a brain. Aside from
-                  code I consider myself to be a leader, critical thinker, and team player. With those traits, I continue
-                  my journey of becoming the best developer I can be.
-                  
-                  </p>
+                <p className="summaryTxt" style={{fontSize: "1.22rem", lineHeight: "1.75"}}>
+                Hi, my name is Nick and I love to tinker with things.
+                I’m currently a student studying Computer Science at Portland State University. 
+                Originally I'm a self taught web developer, however, over the years and though curriculum I've been able to touch
+                other areas of CS as well as keep up with modern web technologies and trends. Aside from programming I love the outdoors,
+                fitness, reading, and spending time with family and friends. Thanks for stopping by!
+                </p>
                 
               </div>
               <div className="skills">
@@ -144,6 +142,25 @@ function App() {
             
             <ul>
               <h4>budgetApp</h4>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>ES5 module pattern</li>
+              <li><span style={{color:"transparent"}}>hello</span></li>
+            </ul>
+            </div>
+          </div>
+          </a>
+
+
+          <a href="https://github.com/ndubs18/NBA-STATS-461P" target="_blank">
+          <div className="projBox">
+            <div>
+            <img src={require('./images/nbaStats.png')}alt="laptopstore"/>
+            </div>
+
+            <div className="description">
+            
+            <ul>
+              <h4>NBA Stats</h4>
               <li>HTML5, CSS3, JavaScript</li>
               <li>ES5 module pattern</li>
               <li><span style={{color:"transparent"}}>hello</span></li>
