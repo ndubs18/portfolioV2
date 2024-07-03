@@ -23,7 +23,7 @@ function App() {
               <div id="personal">
                 <h3>Nick Winkler</h3>
                 <p><b>Software Developer</b></p>
-                <p>Portland, Oregon</p>
+                <p>San Diego, Ca</p>
                 <p><b>Phone:</b> 503-816-8132</p>
                 <p><b>Email:</b> nick.winkler1@gmail.com</p>
               </div>
@@ -34,6 +34,7 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
+                <p>Apple <br/><b style={{fontSize:".9rem"}}>Software Developer - Intern</b></p>
                 <p>Apple <br/><b style={{fontSize:".9rem"}}>Specialist</b></p>
                 <p>Providence Health and Services <br/><b style={{fontSize: ".9rem"}}>IS Support Technician</b></p>
                 <p>Dust Busters <br/><b style={{fontSize: ".9rem", fontWeight: "900"}}>Wildland Firefighter</b></p>
@@ -42,7 +43,7 @@ function App() {
               </div>
               <div id="education">
                 <p><b>Education</b></p>
-                <p>Portland State University</p>
+                <p>Portland State University - <i>Computer Science</i></p>
                 <p>The Tech Academy</p>
               </div>
             </div>
@@ -65,19 +66,19 @@ function App() {
                 <h2>Skills</h2>
                 <div className="tech">
                   <div><p><b>Languages</b></p>
-                  <p>JavaScript, C++, Java, HTML, CSS, Node.js (runtime)</p>
+                  <p>JavaScript, Java, C++, HTML, CSS </p>
                   </div>
                   <div>
-                    <p><b>Dev tools</b></p>
-                    <p>Webpack, Babel, SASS, Rest APIs</p>
-                    </div>
-                  <div>
                     <p><b>Frameworks and Libraries</b></p>
-                    <p>React.js, Express.js, Handlebars, Mongoose, Bootstrap</p>
+                    <p>Express, React, Spring</p>
                     </div>
                   <div>
-                    <p><b>RDBMS/non-RDBMS</b></p>
-                    <p>MySQL, MongoDB</p>
+                    <p><b>Additional Technologies</b></p>
+                    <p>Node.js, Docker, Kubernetes, Kind, Minikube, Bash</p>
+                  </div>
+                  <div>
+                    <p><b>DBMS</b></p>
+                    <p>MySQL, MongoDB, Oracle</p>
                     </div>
                   <div>
                     <p><b>Version Control</b></p>
@@ -85,11 +86,11 @@ function App() {
                   </div>
                   <div>
                     <p><b>IDE/Text Editors</b></p>
-                    <p>Visual Studio, Visual Studio Code, Vim, IntelliJ</p>
+                    <p>Visual Studio Code, Vim, IntelliJ</p>
                   </div>
                 </div>
                 <Techimages/>
-                </div>
+              </div>
               {/* <Techimages/> */}
             </div>
           </div>
