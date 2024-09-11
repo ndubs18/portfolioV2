@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2e67fb3fc3d9f94bb5a2c9c9e8b3ec9",
+    "revision": "f279d0b08184666325d34e97693156e4",
     "url": "/portfolioV2/index.html"
   },
   {
-    "revision": "7f7c8002c298dd5f417e",
-    "url": "/portfolioV2/static/css/main.c38f9ff5.chunk.css"
+    "revision": "b7c1227f6664de56e706",
+    "url": "/portfolioV2/static/css/main.5255f0f9.chunk.css"
   },
   {
-    "revision": "27aa54aab54844e3641e",
-    "url": "/portfolioV2/static/js/2.6057116b.chunk.js"
+    "revision": "c104bee2634adec8128b",
+    "url": "/portfolioV2/static/js/2.53a73cd8.chunk.js"
   },
   {
-    "revision": "7f7c8002c298dd5f417e",
-    "url": "/portfolioV2/static/js/main.34a155e3.chunk.js"
+    "revision": "b7c1227f6664de56e706",
+    "url": "/portfolioV2/static/js/main.17d6c48f.chunk.js"
   },
   {
     "revision": "0dcebae0915972568087",
@@ -66,5 +66,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "847d0fab8acaecd470d0a0e9afa401ae",
     "url": "/portfolioV2/static/media/nbaStats.847d0fab.png"
+  },
+  {
+    "revision": "24b0ed4aa91bfbf497b1f41bf8943437",
+    "url": "/portfolioV2/static/media/starMemo.24b0ed4a.png"
+  },
+  {
+    "revision": "4244dbda97bd743c2790d1dab25fcb0c",
+    "url": "/portfolioV2/static/media/tuneShift.4244dbda.png"
   }
 ]);
