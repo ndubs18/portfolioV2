@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41ea3df440e413e97150a63e763c7981",
+    "revision": "fc12eff65579b181aa6b9efcc7de955b",
     "url": "/portfolioV2/index.html"
   },
   {
-    "revision": "42dca993bd4f5b78f845",
+    "revision": "c656cd5a5533a4cb28f2",
     "url": "/portfolioV2/static/css/main.baccf830.chunk.css"
   },
   {
-    "revision": "c104bee2634adec8128b",
-    "url": "/portfolioV2/static/js/2.53a73cd8.chunk.js"
+    "revision": "b2d31ce34bb59d7f3744",
+    "url": "/portfolioV2/static/js/2.70115d25.chunk.js"
   },
   {
-    "revision": "42dca993bd4f5b78f845",
-    "url": "/portfolioV2/static/js/main.20ba574b.chunk.js"
+    "revision": "c656cd5a5533a4cb28f2",
+    "url": "/portfolioV2/static/js/main.7b3d3022.chunk.js"
   },
   {
     "revision": "0dcebae0915972568087",
@@ -44,31 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolioV2/static/media/React-01.03e21baf.svg"
   },
   {
-    "revision": "1359c7927ad3893134bceca3f620d160",
-    "url": "/portfolioV2/static/media/digital.1359c792.jpg"
-  },
-  {
     "revision": "af1f89320c0e0a4efbe306c7607c0926",
     "url": "/portfolioV2/static/media/firefighting.af1f8932.jpg"
-  },
-  {
-    "revision": "fae7006e2d2ccfbf3ebd375682d31924",
-    "url": "/portfolioV2/static/media/food2fork.fae7006e.jpg"
-  },
-  {
-    "revision": "2aeed7f011e0690f4ef6069c7355f594",
-    "url": "/portfolioV2/static/media/laptopStore.2aeed7f0.jpg"
-  },
-  {
-    "revision": "847d0fab8acaecd470d0a0e9afa401ae",
-    "url": "/portfolioV2/static/media/nbaStats.847d0fab.png"
   },
   {
     "revision": "24b0ed4aa91bfbf497b1f41bf8943437",
     "url": "/portfolioV2/static/media/starMemo.24b0ed4a.png"
   },
   {
-    "revision": "4244dbda97bd743c2790d1dab25fcb0c",
-    "url": "/portfolioV2/static/media/tuneShift.4244dbda.png"
+    "revision": "8fe54a33e935d933909ef8a8d61ec2e6",
+    "url": "/portfolioV2/static/media/tuneShift.8fe54a33.png"
   }
 ]);
