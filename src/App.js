@@ -14,37 +14,34 @@ function App() {
       <header className="App-header">
         <section className="section_1">
           <nav><img src={logo} alt="ndubscodes.com" /><h1>Portfolio</h1>
-          {/* <Navmenu /> */}
+            {/* <Navmenu /> */}
           </nav>
 
           <div className="about_me">
-
             <div className="credentials">
               <div id="personal">
                 <h3>Nick Winkler</h3>
-                <p><b>Software Developer</b></p>
-                <p>San Diego, Ca</p>
+                <p><b>Software Engineer</b></p>
+                <p>San Diego, CA</p>
                 <p><b>Phone:</b> 503-816-8132</p>
                 <p><b>Email:</b> nick.winkler1@gmail.com</p>
               </div>
               <div id="social">
                 <p><b>Media</b></p>
-                <a href="http://www.github.com/ndubs18"><div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')} alt="github"/></div></a>
-                <a href="https://www.linkedin.com/in/nick-winkler-34580872/"><div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')} alt="linkedin"/></div></a>
+                <a href="http://www.github.com/ndubs18"><div className="gitHover"><p>Github</p><img className="git" src={require('./images/GitHub-Mark-64px.png')} alt="github" /></div></a>
+                <a href="https://www.linkedin.com/in/nick-winkler-34580872/"><div className="linkedinHover"><p>Linkedin</p><img className="linkdin" src={require('./images/linkd.png')} alt="linkedin" /></div></a>
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
-                <p>Apple <br/><b style={{fontSize:".9rem"}}>Software Developer - Intern</b></p>
-                <p>Apple <br/><b style={{fontSize:".9rem"}}>Specialist</b></p>
-                <p>Providence Health and Services <br/><b style={{fontSize: ".9rem"}}>IS Support Technician</b></p>
-                <p>Dust Busters <br/><b style={{fontSize: ".9rem", fontWeight: "900"}}>Wildland Firefighter</b></p>
-                <p>Open Source <br/> <b style={{fontSize: ".9rem"}}>Blue Ribbons Review</b></p>
+                <p>Apple <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>Software Developer - Intern</b></p>
+                <p>Apple <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>Sales Specialist</b></p>
+                <p>Providence Health and Services <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>IS Support Technician</b></p>
+                <p>Open Source Developer<br /> <b style={{ fontSize: ".9rem", fontWeight: "600" }}>Blue Ribbons Review</b></p>
                 <p></p>
               </div>
               <div id="education">
                 <p><b>Education</b></p>
                 <p>Portland State University - <i>Computer Science</i></p>
-                <p>The Tech Academy</p>
               </div>
             </div>
 
@@ -52,26 +49,23 @@ function App() {
               <div className="summary">
                 <h2>About Me</h2>
                 {/* WEBPACK MAKES US USE REQUIRE WHEN ADDING IMAGES */}
-                <img src={require('./images/firefighting.jpg')} alt="fire"/>
-                <p className="summaryTxt" style={{fontSize: "1.22rem", lineHeight: "1.75"}}>
-                Hi, my name is Nick and I love to tinker with things.
-                I’m currently a student studying Computer Science at Portland State University. 
-                Originally I'm a self taught web developer, however, over the years and though curriculum I've been able to touch
-                other areas of CS as well as keep up with modern web technologies and trends. Aside from programming I love the outdoors,
-                fitness, reading, and spending time with family and friends. Thanks for stopping by!
+                <img src={require('./images/firefighting.jpg')} alt="fire" />
+                <p className="summaryTxt" style={{ fontSize: "1.22rem", lineHeight: "1.75" }}>
+                  Hi, my name is Nick and welcome to my portfolio. Over the years I've had the opportunity to explore different avenues of programming through completing my banchelors and personal exploration. Aside from programming I love the outdoors,
+                  fitness, reading, and spending time with family and friends. Thanks for stopping by and I look forwared to hearing from you.
                 </p>
-                
+
               </div>
               <div className="skills">
                 <h2>Skills</h2>
                 <div className="tech">
                   <div><p><b>Languages</b></p>
-                  <p>JavaScript, Java, C++, HTML, CSS </p>
+                    <p>JavaScript, TypeScript, Java, HTML, CSS </p>
                   </div>
                   <div>
                     <p><b>Frameworks and Libraries</b></p>
                     <p>Express, React, Spring</p>
-                    </div>
+                  </div>
                   <div>
                     <p><b>Additional Technologies</b></p>
                     <p>Node.js, Docker, Kubernetes, Kind, Minikube, Bash</p>
@@ -79,7 +73,7 @@ function App() {
                   <div>
                     <p><b>DBMS</b></p>
                     <p>MySQL, MongoDB, Oracle</p>
-                    </div>
+                  </div>
                   <div>
                     <p><b>Version Control</b></p>
                     <p>git</p>
@@ -89,104 +83,44 @@ function App() {
                     <p>Visual Studio Code, Vim, IntelliJ</p>
                   </div>
                 </div>
-                <Techimages/>
+                <Techimages />
               </div>
               {/* <Techimages/> */}
             </div>
           </div>
-          <ExpandMoreIcon/>
+          <ExpandMoreIcon />
         </section>
         <h1 className="project_header">Projects</h1>
         <section className="section_2">
-        <a className="projBox_hover" href="http://ndubscodes.com/digitalMarketing" target="_blank">
-          <div className="projBox">
-            <div>
-            <img src={require('./images/digital.jpg')} alt="digital"/>
-            </div>
+          <a href="https://tuneshift.onrender.com" target="_blank">
+            <div className="projBox">
+              <div id="projImgContainer">
+                <img src={require('./images/tuneShift.png')} alt="TuneShift" />
+              </div>
 
-            <div className="description">
-            <ul>
-              <h4>WebAgency</h4>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>Node.js</li>
-              <li>Bootstrap - used on cards</li>
-            </ul>
-            </div>
-          </div>
-          </a>
-        
-        < a href="https://github.com/ndubs18/food2fork" target="_blank">
-          <div className="projBox">
-            <div>
-            <img src={require('./images/food2fork.jpg')}alt="foodtoFork"/>
-            </div>
-            <div className="description">
-            
-            <ul>
-              <h4>food2fork</h4>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>Node.js</li>
-              <li>Webpack & Babel</li>
-            </ul>
-              
-            </div>
-          </div>
-          </ a>
+              <div className="description">
 
-          <a href="https://afternoon-oasis-85715.herokuapp.com/" target="_blank">
-          <div className="projBox">
-            <div>
-            <img src={require('./images/laptopStore.jpg')}alt="laptopstore"/>
+                <h4>TuneShift</h4>
+                <i><p>TypeScript, React.js, Node.js, OAuth2.0</p></i>
+                <p>Tranfer music bidirectionally between Spotify and Apple Music</p>
+              </div>
             </div>
-
-            <div className="description">
-            
-            <ul>
-              <h4>budgetApp</h4>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>ES5 module pattern</li>
-              <li><span style={{color:"transparent"}}>hello</span></li>
-            </ul>
-            </div>
-          </div>
           </a>
 
+          <a href="https://star-memo.vercel.app/" target="_blank">
+            <div className="projBox">
+              <div id="projImgContainer">
+                <img src={require('./images/starMemo.png')} alt="starmemo" />
+              </div>
 
-          <a href="https://github.com/ndubs18/NBA-STATS-461P" target="_blank">
-          <div className="projBox">
-            <div>
-            <img src={require('./images/nbaStats.png')}alt="laptopstore"/>
-            </div>
+              <div className="description">
 
-            <div className="description">
-            
-            <ul>
-              <h4>NBA Stats</h4>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>ES5 module pattern</li>
-              <li><span style={{color:"transparent"}}>hello</span></li>
-            </ul>
+                <h4>StarMemo <br></br><span id="worksInChrome"> &#40;works in Google Chrome&#41;</span></h4>
+                <i><p>TypeScript, React.js, Node.js, Web Speech APIs</p></i>
+                <p>Voice first web app that utilizes the web speech api's speech recognition to interact with an interface and save memos</p>
+              </div>
             </div>
-          </div>
           </a>
-          {/* <a href="http://ndubscodes.com/sandovals_new" target="_blank">
-          <div className="projBox">
-            <div>
-            <img src={require('')} alt="sandovals"/>
-            </div>
-            <div className="description">
-
-            
-            <ul>
-            <h4>laptopStore</h4>
-              <li>HTML5, CSS3, JavaScript</li>
-              <li>Node.js</li>
-              <li><span style={{color:"transparent"}}>hello</span></li>
-            </ul>
-            </div>
-          </div>
-          </a> */}
-          
         </section>
         <footer>&copy; Nick Winkler</footer>
       </header>
