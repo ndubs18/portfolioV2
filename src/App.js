@@ -50,7 +50,7 @@ function App() {
                 {/* WEBPACK MAKES US USE REQUIRE WHEN ADDING IMAGES */}
                 <img src={require('./images/firefighting.jpg')} alt="fire" />
                 <p className="summaryTxt" style={{ fontSize: "1.22rem", lineHeight: "1.75" }}>
-                  Hi, my name is Nick and welcome to my portfolio. Over the years I've had the opportunity to explore different avenues of programming through completing my banchelors and personal exploration. Aside from programming I love the outdoors,
+                  Hi, my name is Nick and welcome to my portfolio. Over the years I've had the opportunity to explore different avenues of programming through completing my bachelor's degree, work and personal exploration. Aside from programming I love the outdoors,
                   fitness, reading, and spending time with family and friends. Thanks for stopping by and I look forwared to hearing from you.
                 </p>
 
