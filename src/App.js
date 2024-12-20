@@ -32,7 +32,7 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
-                <p>Reality Ai<br /> <b style={{ fontSize: ".9rem", fontWeight: "600" }}>Software Engineer</b></p>
+                <p>Reality Ai<br /> <b style={{ fontSize: ".9rem", fontWeight: "600" }}>Software Engineer - Open Source</b></p>
                 <p>Apple <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>Software Developer - Intern</b></p>
                 <p>Apple <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>Sales Specialist</b></p>
                 <p>Providence Health and Services <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>IS Support Technician</b></p>
