@@ -23,7 +23,7 @@ function App() {
                 <h3>Nick Winkler</h3>
                 <p><b>Software Engineer</b></p>
                 <p>San Diego, CA</p>
-                <p><b>Email:</b> nick.winkler1@gmail.com</p>
+                <p><b>Email:</b> nwinkler@pdx.edu </p>
               </div>
               <div id="social">
                 <p><b>Media</b></p>
