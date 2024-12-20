@@ -32,10 +32,10 @@ function App() {
               </div>
               <div id="experience">
                 <p><b>Work Experience</b></p>
+                <p>Reality Ai<br /> <b style={{ fontSize: ".9rem", fontWeight: "600" }}>Software Engineer</b></p>
                 <p>Apple <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>Software Developer - Intern</b></p>
                 <p>Apple <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>Sales Specialist</b></p>
                 <p>Providence Health and Services <br /><b style={{ fontSize: ".9rem", fontWeight: "600" }}>IS Support Technician</b></p>
-                <p>Open Source Developer<br /> <b style={{ fontSize: ".9rem", fontWeight: "600" }}>Blue Ribbons Review</b></p>
                 <p></p>
               </div>
               <div id="education">
@@ -78,8 +78,8 @@ function App() {
                     <p>git</p>
                   </div>
                   <div>
-                    <p><b>IDE/Text Editors</b></p>
-                    <p>Visual Studio Code, Vim, IntelliJ</p>
+                    <p><b>Dev Environment</b></p>
+                    <p>Neovim, Visual Studio Code, IntelliJ</p>
                   </div>
                 </div>
                 <Techimages />
